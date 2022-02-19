@@ -5,11 +5,13 @@
     "author": "Aman Jaiswal",
     "repository": "https://github.com/aj85430/monokle-template-demo.git",
     "monoklePlugin": {
-      "modules": [
-        {
-          "type": "template",
-          "path": "basic-pod-template"
-        }
-      ]
-    }
+        "id":"com.github.aj85430.plugin.templates",
+        "helpUrl":"https://github.com/aj85430/monokle-templates-plugin",
+        "modules": [
+          {
+            "type": "template",
+            "path": "basic-pod-template"
+          }
+        ]
+      }
   }
